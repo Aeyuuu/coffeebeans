@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500;600&family=Josefin+Sans:wght@500&family=Playfair+Display:wght@700&display=swap');
+/*font-family: 'Fira Sans', sans-serif;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Playfair Display', serif;
+*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Fira Sans', sans-serif;
+    color: #794524 !important;
+}
+.top-nav{
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.logo a{
+    text-decoration: none;
+    font-size: 1.5em;
+}
+.navigation{
+    display: flex;
+    gap: 15px;
+}
+.navigation a{
+    text-decoration: none;
+}
+.navigation a:hover{
+    color: #ff6a00 !important;
+    font-weight: bold;
+}
+.top-icons i{
+    margin-right: 10px;
+    font-size: 22px;
+}
+.top-icons i:hover{
+    color: #ff6a00 !important;
+    font-weight: bold;
+}
+.hero-container{
+    height: 600px;
+    height:100vh;
+    text-align: center;
+}
+.hero-section{
+    background-color: #794524;
+    background-image: url(/resources/img/coffee-splash.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-height: 430px;
+}
+
+.hero-details{
+    height: auto;
+    vertical-align: middle;
+}
+.hero-details h1 {
+    padding-top: 20px;
+    color: #fff !important;
+    font-size: 5em;
+    font-family: 'Fira Sans', sans-serif;
+    text-shadow: 3px 3px #000000;
+
+}
+.hero-details p {
+    color:#fff !important;
+    text-shadow:4px 4px #000000;
+}
+.hero-image img {
+    width: 400px;
+    height: 400px;
+}
+.intro-container{
+    height: auto;
+    width: 80vw;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.intro-section{
+    padding: 20px;
+    
+}
+.intro-section h2 {
+    font-size: 3em;
+    font-family: 'Fira Sans', cursive;
+    
+}
+.intro-section p {
+    font-size: 1.2em;
+}
+
+/* Coffee Sip after 
+the main */
+.blanca-container{
+    height: 600px;
+    height: 168vh;
+    text-align: center;
+    background-color: #794524;
+}
+.blanca-section{
+   
+    margin-top: 50px;
+   
+    
+}
+
+.blanca-details h1 {
+    padding-top: 20px;
+    color: #fff !important;
+    font-size: 5em;
+    font-family: 'Fira Sans', sans-serif;
+    text-shadow: 3px 3px #000000;
+
+}
+.blanca-details p {
+    color:#fff !important;
+    text-shadow:4px 4px #000000;
+    margin-bottom: 20px;
+}
+
+.blanca-details{
+    height: auto;
+    vertical-align: middle;
+}
+.blanca-image img{
+    align-items: center;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+   background-color: #fff;
+   
+}
+.blanca-image h1 {
+    color:#fff !important;
+   text-shadow:4px 4px #000000;
+   margin-bottom: 1px;
+}
+.blanca-image p{
+    color:#fff !important;
+   text-shadow:4px 4px #000000;
+}
+
+/* sandwiches content */
+.blanca-sandwich img{
+    align-items: center;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+   background-color: #fff;
+   margin-top: 30px;
+   
+}
+.blanca-image img:hover{
+    transform: scale(1.05);
+}
+.blanca-sandwich img:hover{
+    transform: scale(1.05);
+}
+.blanca-sandwich h1{
+    color:#fff !important;
+    text-shadow:4px 4px #000000;
+}
+
+
+.blanca-sandwich p{
+    color:#fff !important;
+    text-shadow:4px 4px #000000;
+}
+/* Footer */
+.footer-container{
+    text-align: center;
+}
+
+
+/* About Details Content */
+
+.abouthead-container{
+    text-align: center;
+    margin-bottom: 5px;
+    height: 100vh;
+    background: gold;
+    box-sizing: border-box;
+    border-radius: 500px;
+    box-shadow: 0 15px 50px rgba(0, 0, 0, .2);
+    margin-left: 10px;
+    margin-right: 10px;
+    border-style: solid;
+    border-color: #794524;
+}
+.abouthead-image img{
+    height: 450px;
+    width: 500px;
+    margin-right: 700px;
+    position: relative;
+    top: -100px;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: #000000;
+   
+}
+.abouthead-details h2{
+    color: #ff6a00;
+    font-size: 3.5em;
+    position: absolute;
+    top: 250px;
+    right: 310px;
+    
+}
+.abouthead-details p{
+    color: #ff6a00;
+    font-size: 1.5em;
+    font-family: 'Playfair Display', serif;
+    position: absolute;
+    top: 220px;
+    padding: 120px;
+    left: 500px;
+}
+.abouthead-details {
+    padding: 200px 95px;
+    margin-top: 10px;
+    
+}
+
+@media only screen and (max-width: 768px) {
+    /* adjust properties for screens larger than 768px */
+    
+    .abouthead-details h2 {
+      top: 22%;
+      font-size: 2.6em;
+      transform: translate(88%, 100%);
+      
+      
+      
+    }
+    .abouthead-details p {
+      top: 76%;
+      left: 35%;
+      transform: translate(-27%, -50%);
+      position: absolute;
+      font-size: 15px;
+      
+      padding: 0px;
+      
+    }
+    .abouthead-image img{
+        height: 140px;
+        width: 140px;
+        top: 20%;
+        left: 25%;
+        transform: translate(-5%, -12%);
+        
+    }
+  }
+
+/* content about 2nd */
+.content-container{
+    text-align: center;
+    margin-bottom: 10px;
+    background-image: url(/resources/img/sd.jpg);
+    height: 100vh;
+
+}
+.content-dif{
+    padding: 200px 95px;
+    margin-top: 10px;
+}
+.content-set h2{
+   color: gold !important;
+    font-size: 3.5em;
+    margin-bottom: 20px;
+}
+.content-set p{
+    color: #fff !important;
+    font-size: 1.5em;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 20px;
+}
+.contents-container{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.contents-container p{
+    margin-top: 10px;
+    padding: 0 95px;
+    font-family: 'Playfair Display', serif;
+}
+
+/* Team */
+.team-container{
+    text-align: center;
+
+}
+.team-section p{
+    margin-top: 10px;
+    padding: 0 95px;
+    font-family: 'Playfair Display', serif;
+}
+.team-section{
+    margin-bottom: 10px;
+}
+/* Team Content */
+.profile-container{
+    border: 2px solid #ccc;
+  background-color: #794524;
+  border-radius: 5px;
+  padding: 16px;
+  margin: 16px 0
+}
+.profile-container::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.profile img{
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    margin-top: 20px;
+    border-style: solid;
+    border-color: #000000;
+    
+}
+.profile-container h3{
+    color:#fff !important;
+    text-shadow:4px 4px #000000;
+    margin-bottom: 1px;
+    text-align: center;
+}
+.profile-container p{
+    color:#fff !important;
+    text-shadow:4px 4px #000000;
+    margin-top: 3px;
+    text-align: center;
+}
+.profile-container img:hover{
+    transform: scale(1.05);
+}
+
+
+
+
+.footer{
+    text-align: center;
+}
